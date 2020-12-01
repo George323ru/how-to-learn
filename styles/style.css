@@ -131,7 +131,7 @@ div{
 /*--------------------- Block Digits -------------------------------- */
 
 .digits {
-  padding: 100px 0 0 0;
+  padding: 100px 0 100px 0;
 }
 
 .section-title {
@@ -186,7 +186,7 @@ div{
 .feynman {
   height: 790px;
   position: relative;
-  padding: 200px 0 0 0;
+  padding: 100px 0 0 0;
   background-image: url('../images/feynman.png');
   background-position: bottom left;
   background-repeat: no-repeat;
