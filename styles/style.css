@@ -20,6 +20,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  z-index: 1;
   /* выше установили ограничения для секции */
 }
 
@@ -32,7 +33,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 3;
+
 }
 
 .header__title {
@@ -41,7 +42,6 @@
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  z-index: 2;
 }
 
 .header__subtitle {
@@ -52,7 +52,6 @@
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
-  z-index: 2;
 }
 
 .header__link {
@@ -71,7 +70,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: -1;
   background-size: cover;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -82,6 +81,7 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+  z-index: -2;
 }
 
 /*--------- Block Description ---------*/
@@ -234,21 +234,18 @@
 }
 
 .section-title_theme_dark {
-  position: relative;
+  /* position: relative; */
   color: white;
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   position: relative;
   font-size: 24px;
   color: white;
-  z-index: 1;
 }
 
 .table_theme_dark {
-  background-color: #1f1f1f;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .table__cell_theme_dark {
@@ -257,7 +254,6 @@
   background-color: rgba(0, 0, 0, 0);
   margin-right: 0;
   margin-top: 80px;
-  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -270,7 +266,7 @@
   background-position: center;
   top: 0;
   right: -210px;
-  z-index: 0;
+  z-index: -1;
 }
 
 /*--------- Block Footer ---------*/
