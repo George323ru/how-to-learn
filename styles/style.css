@@ -23,6 +23,11 @@
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -88,7 +93,6 @@
 }
 
 .two-columns {
-  min-height: 340px;
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -142,7 +146,7 @@
 .section-subtitle {
   width: 60%;
   line-height: 34px;
-  font-size: 34px;
+  font-size: 24px;
   font-weight: normal;
   text-align: center;
   margin: 0 auto;
@@ -180,13 +184,14 @@
 /*--------- Block Feynman ---------*/
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   position: relative;
   padding: 100px 0 0 0;
   background-image: url('../images/feynman.png');
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -208,7 +213,7 @@
 
 .feynman__link {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 48px;
   text-decoration: none;
   line-height: 51px;
@@ -219,26 +224,28 @@
 /*--------- Block Kaufman ---------*/
 /* и элемента с модификатором вида ключ-значение */
 
-.kaufman_theme_dark {
+.kaufman {
   position: relative;
   padding: 90px 0;
-  background-color: black;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
 .section-title_theme_dark {
+  position: relative;
   color: white;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
   font-size: 24px;
   color: white;
   z-index: 1;
 }
 
 .table_theme_dark {
-  background-color: black;
+  background-color: #1f1f1f;
   z-index: 1;
 }
 
@@ -268,7 +275,7 @@
 
 .footer {
   min-height: 350px;
-  background-color: #000;
+  background-color: #1f1f1f;
   padding: 60px 0 40px;
   box-sizing: border-box;
 }
@@ -278,15 +285,15 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: white;
  }
 
 .footer__column {
-  min-height: 230px;
+  min-height: 250px;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -295,6 +302,7 @@
 
 .logo_place_footer {
   position: static;
+
  }
 
 .footer__author {
@@ -303,7 +311,7 @@
   font-weight: normal;
  }
 
-.footer__columns_content_info {
+.footer__column_content_info {
 
  }
 
@@ -314,17 +322,17 @@
    font-weight: bold;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   flex-direction: column;
  }
 
-.footer_column-links {
+.footer__column-links {
   list-style: none;
   margin-top: 20px;
   padding: 0;
 }
 
-.footer_column-link {
+.footer__column-link {
   color: white;
   line-height: 30px;
   font-size: 18px;
