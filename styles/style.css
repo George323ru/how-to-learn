@@ -229,16 +229,17 @@
   padding: 90px 0;
   background-color: #1f1f1f;
   overflow: hidden;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
-  position: relative;
+  /* position: relative; */
   color: white;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  position: relative;
+  /* position: relative; */
   font-size: 24px;
   color: white;
   z-index: 1;
