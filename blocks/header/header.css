@@ -8,5 +8,6 @@
   min-height: 600px;
   max-height: 756px;
   z-index: 1;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
