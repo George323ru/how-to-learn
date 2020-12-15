@@ -1,13 +1,9 @@
 .cards {
   margin: 0 auto;
   width: 920px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fill, 240px);
 }
 
-.cards::after {
-  content: "";
-  width: 240px;
-}
 
