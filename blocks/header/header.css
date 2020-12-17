@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f2f2f2;
   position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   z-index: 1;
+  
   overflow: hidden;
+
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
