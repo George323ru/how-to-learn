@@ -1,0 +1,18 @@
+.feedback__buttons {
+  padding: 10px 15px;
+
+  font-weight: bold;
+
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  background-color: #2f80ed;
+}
+
+.feedback__buttons:hover {
+  box-shadow: 0 0 6px 2px #cccccc;
+}
+
+.feedback__buttons:active {
+  box-shadow: none;
+}
