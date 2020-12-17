@@ -3,16 +3,18 @@
 
   font-weight: bold;
 
+  background-color: #2f80ed;
   color: white;
   border: 0;
   border-radius: 15px;
-  background-color: #2f80ed;
+  transition: opacity .2s ease;
 }
 
 .feedback__buttons:hover {
-  box-shadow: 0 0 6px 2px #cccccc;
+  opacity: .8;
 }
 
 .feedback__buttons:active {
-  box-shadow: none;
+  box-shadow: inset 1px 1px 1px #1f1f1f;
+
 }
