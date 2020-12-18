@@ -3,11 +3,12 @@
 
   font-weight: bold;
 
+  
   background-color: #2f80ed;
   color: white;
   border: 0;
   border-radius: 15px;
-  transition: opacity .2s ease;
+  transition: .2s ease;
 }
 
 .feedback__buttons:hover {
